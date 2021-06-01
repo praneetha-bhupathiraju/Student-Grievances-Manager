@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">StudentsGrievanceManagement</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string-array name="hostelNames">
+        <item>Saudamini</item>
+        <item>Saraswati</item>
+        <item>Samyuktha</item>
+        <item>Sarada</item>
+        <item>Seethamma</item>
+    </string-array>
+</resources>

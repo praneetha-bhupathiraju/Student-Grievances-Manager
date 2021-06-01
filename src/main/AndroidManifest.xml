@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lenovo.studentsgrievancemanagemant">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Homepage"/>
+        <activity android:name=".UpdateAccount"/>
+        <activity android:name=".StudentRegistration"/>
+        <activity android:name=".RegisterCmp"/>
+        <activity android:name=".StatusCmp"/>
+        <activity android:name=".EmployeeRegistration"/>
+        <activity android:name=".Hostel"/>
+        <activity android:name=".ViewCmp"/>
+        <activity android:name=".Others"/>
+        <activity android:name=".Academics"/>
+        <activity android:name=".Admission"/>
+        <activity android:name=".EAcademics"/>
+        <activity android:name=".EmpHomePage"/>
+        <activity android:name=".EAdmission"/>
+        <activity android:name=".EHostel"/>
+        <activity android:name=".EOthers"/>
+        <activity android:name=".EmpUpdate"/>
+        <activity android:name=".Solution"/>
+        <activity android:name=".Solution1"/>
+        <activity android:name=".Solution2"/>
+        <activity android:name=".Solution3"/>
+    </application>
+
+</manifest>
